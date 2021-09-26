@@ -1,4 +1,10 @@
 # FNF/SM converter
+This is my fork of a tool that converts FNF charts to .sm files. The original one converted them into 8k/double songs (for both enemy and player notes), whereas this one instead converts them into 4k single charts. 
+
+To run it, run the my-fnf-to-sm.py file and follow the prompts. Sometimes your song may not show up on the list, this is most likely due to the freeplaySonglist.txt file not containing every song in the version of the game you are using. It may also not be able to find the audio files or json files if the file structure is different (like the SiIvapack mod).
+
+Feel free to fork this and add improvements, as most of my code was written late at night when I was tired and may not entirely work.
+### Original Description
 Roughly convert Friday Night Funkin .json charts to doubles simfiles for StepMania \
 Or convert StepMania simfiles to FNF charts. \
 Very WIP but it works, kinda.
